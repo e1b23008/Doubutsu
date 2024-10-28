@@ -14,6 +14,7 @@ void setup() {
 void draw() {
   board.draw();
   komaList.draw();
+  gs.checkWinner();
 }
 
 void mouseReleased() {
